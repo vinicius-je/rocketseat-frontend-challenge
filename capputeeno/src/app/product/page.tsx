@@ -107,7 +107,7 @@ const ProductInfo = styled.div`
 
 export default function Product({searchParams}: { searchParams: { id: string } }){ 
     const { data } = useProdut(searchParams.id)
-    console.log(data)
+
     return(
         <DefaultPageLayout>
             <Container>
