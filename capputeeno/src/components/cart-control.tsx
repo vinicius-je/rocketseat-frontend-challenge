@@ -19,7 +19,7 @@ const CartCount = styled.span`
 `
 
 export function CartControl(){
-    const { value } = useLocalStorage('item', []);
+    const { value } = useLocalStorage('cart-items', []);
 
     return(
         <Container>
